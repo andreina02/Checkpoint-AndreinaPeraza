@@ -1,0 +1,36 @@
+  123  git clone https://github.com/andreina02/Checkpoint-AndreinaPeraza.git
+  124  touch main.js index.html
+  125  cd Checkpoint-AndreinaPeraza
+  126  touch main.js index.html
+  127  git status
+  128  git add .
+  129  git status
+  130  git commit -m "Primer commit"
+  131  git log
+  132  git push origin main
+  133  git branch feature
+  134  git checkout feature
+  135  mkir Hardware Software SeguridadInformatica
+  136  mkdir Hardware Software SeguridadInformatica
+  137  cd Hardware
+  138  touch resumen.txt
+  139  cd ..
+  140  cd Software
+  141  touch resumen.txt
+  142  cd ..
+  143  cd SeguridadInformatica
+  144  touch resumen.txt
+  145  cd ..
+  146  git push origin feature
+  147  git status
+  148  git add .
+  149  git status
+  150  git commit -m "Segundo commit"
+  151  git log
+  152  git push origin feature
+  153  git checkout main
+  154  mv main.js resumenHardware.txt
+  155  mv index.html resumenSoftware.txt
+  156  touch comandos.txt
+  157  history 
+  158  history 35 > comandos.txt
